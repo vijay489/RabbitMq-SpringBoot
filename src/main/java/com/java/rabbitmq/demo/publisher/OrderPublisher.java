@@ -1,8 +1,8 @@
-package com.javatechie.rabbitmq.demo.publisher;
+package com.java.rabbitmq.demo.publisher;
 
-import com.javatechie.rabbitmq.demo.config.MessagingConfig;
-import com.javatechie.rabbitmq.demo.dto.Order;
-import com.javatechie.rabbitmq.demo.dto.OrderStatus;
+import com.java.rabbitmq.demo.config.MessagingConfig;
+import com.java.rabbitmq.demo.dto.Order;
+import com.java.rabbitmq.demo.dto.OrderStatus;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

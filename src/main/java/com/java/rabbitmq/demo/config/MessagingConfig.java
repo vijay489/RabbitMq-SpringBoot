@@ -1,4 +1,4 @@
-package com.javatechie.rabbitmq.demo.config;
+package com.java.rabbitmq.demo.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MessagingConfig {
 
-    public static final String QUEUE = "javatechie_queue";
-    public static final String EXCHANGE = "javatechie_exchange";
-    public static final String ROUTING_KEY = "javatechie_routingKey";
+    public static final String QUEUE = "javalocal_queue";
+    public static final String EXCHANGE = "javalocal_exchange";
+    public static final String ROUTING_KEY = "routing_Key";
 
     @Bean
     public Queue queue() {

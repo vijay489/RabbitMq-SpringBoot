@@ -1,4 +1,4 @@
-package com.javatechie.rabbitmq.demo.dto;
+package com.java.rabbitmq.demo.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package com.javatechie.rabbitmq.demo.consumer;
+package com.java.rabbitmq.demo.consumer;
 
-import com.javatechie.rabbitmq.demo.config.MessagingConfig;
-import com.javatechie.rabbitmq.demo.dto.OrderStatus;
+import com.java.rabbitmq.demo.config.MessagingConfig;
+import com.java.rabbitmq.demo.dto.OrderStatus;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
